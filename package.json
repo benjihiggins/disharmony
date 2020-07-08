@@ -1,7 +1,7 @@
 {
-  "author": "Benji7425 <benji7425@pm.me> (http://benji7425.github.io/)",
+  "author": "Benji Higgins <benjihiggins@protonmail.com> (http://benjihiggins.github.io/)",
   "bugs": {
-    "url": "https://github.com/benji7425/disharmony/issues"
+    "url": "https://github.com/benjihiggins/disharmony/issues"
   },
   "dependencies": {
     "@hapi/joi": "^15.0.3",
@@ -30,7 +30,7 @@
     "!*.map",
     "!*.spec.*"
   ],
-  "homepage": "https://github.com/benji7425/disharmony#readme",
+  "homepage": "https://github.com/benjihiggins/disharmony#readme",
   "keywords": [
     "discord",
     "discordapp",
@@ -39,10 +39,13 @@
   ],
   "license": "MIT",
   "main": "dist/index.js",
-  "name": "disharmony",
+  "name": "@benjihiggins/disharmony",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benji7425/disharmony.git"
+    "url": "git://github.com/benjihiggins/disharmony.git"
   },
   "scripts": {
     "build": "./node_modules/.bin/tsc --project tsconfig.prod.json",
