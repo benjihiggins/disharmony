@@ -1,7 +1,9 @@
 ![Build status](https://github.com/bhigginsuk/disharmony/actions/workflows/validate.yml/badge.svg?branch=master)
 
+**No longer maintained.**
+
 # Disharmony
-A Discord bot framework built on top of [discord.js](https://github.com/discordjs/discord.js) with command parsing and basic Mongo-like database integration
+The framework for my Discord bots, built on top of [discord.js](https://github.com/discordjs/discord.js) with command parsing and basic Mongo-like database integration.
 
 ## Features
 - Built on top of [discord.js](https://github.com/discordjs/discord.js)
